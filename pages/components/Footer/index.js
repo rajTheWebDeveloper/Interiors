@@ -12,6 +12,7 @@ export default function Footer()
         const whatsappURL = `https://wa.me/${countryCode}${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(whatsappURL, '_blank');
       };
+      
     return <main className="w-[100vw] text-white h-auto py-2 pb-6 mt-24">
         <div className="container px-8">
             <h2 className="text-center text-2xl py-8">Ready To Design Your Dream Home?</h2>

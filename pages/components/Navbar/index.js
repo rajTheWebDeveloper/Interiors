@@ -3,6 +3,7 @@ import logo from '@/public/assets/dlogo.png'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useContext } from "react";
 import { InteriorContext } from "@/context/InteriorContext";
+import Link from "next/link";
 
 export default function Navbar()
 {
@@ -10,7 +11,7 @@ export default function Navbar()
     return <main className="h-[80px] w-[100vw] text-[#8443B3]">
         <div className="flex justify-between items-center h-[100%] w-[90vw] max-w-[1200px] mx-auto">
             <article className="logo flex items-center justify-between w-[100%] md:w-auto">
-                <h2 className="font-bold text-xl"><Image src={logo} width={100} height={100}/></h2>
+                <Link href="/"><h2 className="font-bold text-xl"><Image src={logo} width={100} height={100}/></h2></Link>
                 <div className="md:hidden">
                     <RxHamburgerMenu onClick={openSidebar} size={24} className="cursor-pointer"/>
                 </div>

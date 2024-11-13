@@ -4,7 +4,6 @@ import Image from "next/image";
 
 export default function Footer()
 {
-
     const openWhatsApp = () => {
         const countryCode = '91'; 
         const phoneNumber = '9710459458'; 

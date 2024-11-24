@@ -17,10 +17,10 @@ export default function Navbar()
                 </div>
             </article>
             <ul className="hidden md:flex text-white font-semibold">
-                    <li className="mx-2">Design gallery</li>
-                    <li className="mx-2">Recent Projects</li>
-                    <li className="mx-2">Products</li>
-                    <li className="mx-2">About Us</li>
+                    <li className="mx-2 cursor-pointer">Design gallery</li>
+                    <li className="mx-2 cursor-pointer">Recent Projects</li>
+                    <li className="mx-2 cursor-pointer">Products</li>
+                    <li className="mx-2 cursor-pointer">About Us</li>
             </ul>
             <div className="enquiry hidden md:flex">
                     <button className="bg-[#8443B3] text-white py-2 px-3 md:py-2 md:px-4 rounded-md">Get Free Estimate</button>

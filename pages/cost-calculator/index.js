@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { Button, Flex, Grid, Input, Select, Stack } from "@mantine/core"
+import FAQ from "../components/FAQ"
 
 export default function CostCalculator()
 {
@@ -88,6 +89,8 @@ export default function CostCalculator()
                     </Stack>
                 </Grid.Col>
         </Grid>
+
+        <FAQ/>
 
     </section>
 }

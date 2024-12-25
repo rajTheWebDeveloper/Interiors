@@ -7,7 +7,7 @@ export default function CostBanner()
        <Stack gap={30}>
             <h2 className="text-3xl font-bold">False Ceiling Price From ₹48/sq.ft</h2>
             <Link href="/cost-calculator"><Button color="#8443B3" className="max-w-[300px] mx-auto">Fall Ceiling Cost Calculator</Button></Link>
-            <p>Want to know the total false ceiling cost estimation for a gypsum false ceiling with lighting and painting?</p>
+            <p>Wan to know the total false ceiling cost estimation for a gypsum false ceiling with lighting and painting?</p>
             <p>Use our <span className="text-[#8443B3]"><Link href="/cost-calculator">false ceiling cost calculator</Link></span> to check the total false ceiling cost estimations for the false ceiling with lighting and painting!</p>
        </Stack>
     </section>

@@ -18,7 +18,7 @@ export default function Navbar()
             </article>
             <ul className="hidden md:flex text-white font-semibold">
                     <li className="mx-2 cursor-pointer">Design gallery</li>
-                    <li className="mx-2 cursor-pointer">Recent Projects</li>
+                    <li className="mx-2 cursor-pointer">Latest Projects</li>
                     <li className="mx-2 cursor-pointer">Products</li>
                     <li className="mx-2 cursor-pointer">About Us</li>
             </ul>

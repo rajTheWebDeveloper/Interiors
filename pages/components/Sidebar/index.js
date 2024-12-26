@@ -17,7 +17,7 @@ export default function Sidebar()
             </header>
             <ul className="">
                 <li className="my-4 cursor-pointer">Design gallery</li>
-                <li className="my-4 cursor-pointer">Recent Projects</li>
+                <li className="my-4 cursor-pointer">Latest Projects</li>
                 <li className="my-4 cursor-pointer">Products</li>
                 <li className="my-4 cursor-pointer">About Us</li>
             </ul>

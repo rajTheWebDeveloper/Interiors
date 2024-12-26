@@ -25,7 +25,7 @@ export default function Footer()
                     <Stack gap={7}>
                         <h2 className="font-bold text-lg text-[#8443B3] mb-4">Contact Info</h2>
                         <p>Trade Name: Murali Interiors</p>
-                        <h2>Founders</h2>
+                        <h2>Founder</h2>
                         <div className="flex gap-4">
                             <p className="text-[#8443B3]">G Murali</p>
                         </div>
